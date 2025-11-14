@@ -1,0 +1,12 @@
+1. Pastikan di pc sudah terinstall PHP dan Composer
+   -PHP bisa menggunakan dari Xampp atau bisa kalian download php sendiri 
+   -Untuk composer bisa di download di website resmi mereka dan lakukan instalasi seperti biasa
+
+2. ketika semua terinstal kalian bisa memastikan dengan cara
+   - php -v, untuk memeriksa versi php 
+   - composer -V, untuk memeriksa versi composer
+   Jika keduanya sudah terinstall berikutnya kita lanjut install laravel
+3. bukan command prompt / terminal apapun arhkan ke folder dimana akan kita buat project
+4. Ketik composer "global require laravel/installer" berfungsi agar perintah laravel terinstal dan dimengerti windows
+5. Ketika laravel sudah terinstal berikutnya Ketik "laravel new nama-project" lalu tunggu proses pembuatan project selesai
+6. Ketika project berhasil di buat ketik pada terminal "php artisan serve" untuk mengaktifakn server	
